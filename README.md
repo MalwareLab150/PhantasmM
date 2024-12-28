@@ -10,9 +10,9 @@ Phantasm M begins by **encrypting essential files** and causing **system-wide de
 
 - **System32 Encryption**: It encrypts critical **System32 files**, which are required for Windows to run. This prevents the OS from booting and leaves the system unresponsive.
 - **Hard Disk Files**: The malware also targets files on other hard drives or partitions, rendering **backup data** inaccessible.
-- **User Folder Encryption**: It locks away **user folders** such as **Documents**, **Pictures**, and **Videos**, making it impossible to recover personal data without specialized decryption tools.
+- **User Folder Encryption**: It locks away **user folders** such as **Documents**, **Pictures**, and **Videos**, making it impossible to recover personal data .
 
-The encryption algorithm used is complex, and recovery of the files without the proper key is extremely difficult.
+The encryption algorithm used is complex
 
 ---
 
@@ -20,21 +20,16 @@ The encryption algorithm used is complex, and recovery of the files without the 
 
 Phantasm M doesn’t just encrypt files—it also corrupts **user profiles**:
 
-- **Profile Deletion**: It deletes or **corrupts the user profile**, causing the system to fail when attempting to load the profile.
-- **Loss of User Settings**: Custom settings, desktop items, and documents are lost, making it almost impossible to recover any user-specific data or preferences.
-
-Restoring the user profile is a serious challenge, often requiring a complete **reinstallation of the OS**.
+- **Profile Deletion**
+- **Loss of User Settings**
 
 ---
 
 ## **3. Disturbing Audio Effects**
 
-As if the file corruption wasn’t enough, Phantasm M also disrupts the system with disturbing **audio effects**:
+- **Distorted Sounds**
+- **Audio Interruptions**
 
-- **Distorted Sounds**: Continuous, eerie, and **unnatural sounds** fill the system, making it impossible to focus or use the device.
-- **Audio Interruptions**: The sounds are unpredictable, sometimes cutting off or suddenly switching to white noise, high-pitched frequencies, and harsh noises.
-
-This audio chaos adds a layer of discomfort, further preventing the user from interacting with the device.
 
 ---
 
@@ -105,6 +100,5 @@ The malware uses **C#** and **GDI** functions to create distorted, unsettling vi
 - **Bitmap Manipulation**
 - **Intense Color Effects**
 
-This ensures the visual chaos persists while the system becomes unstable and unusable.
 
 ---
