@@ -1,6 +1,6 @@
 # **Phantasm M - A Destructive Malware**
 
-**Phantasm M** is an advanced and highly destructive malware that targets Windows systems. It encrypts files, corrupts system configurations, damages crucial components, and creates unsettling visual and audio effects, making recovery nearly impossible. This malware is designed as a challenge for cybersecurity experts, particularly tailored for the **nFire** YouTube channel, an Italian cybersecurity-focused platform.
+**Phantasm M** is an advanced and highly destructive malware that targets Windows systems. It encrypts files, corrupts system configurations, damages crucial components, and creates unsettling visual and audio effects, making recovery nearly impossible. This malware is designed as a challenge for cybersecurity experts, particularly tailored for the **nFire** YouTube channel, an Italian youtube channel.
 
 ---
 
@@ -8,9 +8,9 @@
 
 Phantasm M begins by **encrypting essential files** and causing **system-wide destruction**:
 
-- **System32 Encryption**: It encrypts critical **System32 files**, which are required for Windows to run. This prevents the OS from booting and leaves the system unresponsive.
-- **Hard Disk Files**: The malware also targets files on other hard drives or partitions, rendering **backup data** inaccessible.
-- **User Folder Encryption**: It locks away **user folders** such as **Documents**, **Pictures**, and **Videos**, making it impossible to recover personal data .
+- **System32 Encryption**
+- **Hard Disk Files**
+- **User Folder Encryption**
 
 The encryption algorithm used is complex
 
