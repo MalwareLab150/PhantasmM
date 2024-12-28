@@ -45,7 +45,7 @@ The **Windows Registry** is crucial to the smooth operation of the system, and P
 - **Modifies Critical Registry Keys**: It modifies or deletes key registry entries that control **startup processes**, **system drivers**, and important **configurations**.
 - **No Easy Fix**: Phantasm M corrupts **restore points** and **recovery options**, making it impossible to use tools like System Restore to revert changes.
 
-Fixing the registry manually is nearly impossible, and it often results in a system that is completely unbootable.
+Fixing the registry manually is nearly impossible, and results in a system that is completely unbootable.
 
 ---
 
@@ -55,21 +55,12 @@ Fixing the registry manually is nearly impossible, and it often results in a sys
 
 - **Overwrites System DLLs**: The malware overwrites critical **system DLLs**, causing software crashes and system instability.
 - **App Compatibility Failures**: Applications that depend on these DLLs stop working, causing errors and system slowdowns.
-
-This renders the entire system unstable and unusable, further preventing recovery and rendering many apps incompatible.
-
 ---
 
 ## **6. Overwriting the MBR (Master Boot Record)**
 
-One of the most dangerous features of Phantasm M is its ability to overwrite the **Master Boot Record (MBR)**:
-
-- **512-Byte Fractal Overwrite**: Phantasm M replaces the MBR with a **512-byte fractal** written in **Assembly** code. This prevents the system from booting and effectively bricking the device.
+- **512-Byte Fractal Overwrite**: Phantasm M replaces the MBR with a **512-byte fractal** written in **Assembly** code. This prevents the system from booting .
 - **Minimal Code**: The Assembly code is extremely small but highly effective at preventing the OS from loading.
-
-After a reboot, the system is unable to load, leaving the device in a **boot loop** or completely unresponsive.
-
----
 
 ## **7. Corrupting the BCD (Boot Configuration Data)**
 
@@ -82,9 +73,7 @@ This makes it nearly impossible to repair the system without **reinstalling the 
 
 ---
 
-## **8. Surreal Visual Effects**
-
-In addition to causing system failures, Phantasm M creates a surreal **visual experience** through **GDI (Graphics Device Interface)** in **C#**:
+## **8. LSD TRIP**
 
 - **Rotating Circles**: It displays **rotating circles** on the screen, distorting the UI and creating a disorienting effect.
 - **Bitmap Manipulation**: The malware uses **StretchBlt** and other bitmap manipulation techniques to stretch and warp images on the screen.
@@ -99,9 +88,7 @@ The distorted graphics make the device nearly impossible to use, and the constan
 Phantasm M also includes a hidden **Easter Egg** that makes it even more dangerous:
 
 - **BSOD (Blue Screen of Death)**: If the malware is executed with the system date set to **2050**, it triggers a **BSOD**, crashing the system entirely.
-- **New MBR Overwrite**: After the BSOD, Phantasm M overwrites the MBR again, further locking the system and making it harder to recover.
-
-This Easter Egg adds an extra layer of complexity, making Phantasm M even more difficult to deal with.
+- **New MBR Overwrite**: After the BSOD, Phantasm M overwrites the MBR again but with a new MBR
 
 ---
 
@@ -110,11 +97,6 @@ This Easter Egg adds an extra layer of complexity, making Phantasm M even more d
 Phantasm M was created specifically as a challenge for **nFire**, an Italian YouTube channel focused on **cybersecurity**.
 I love nFire :) 
 ---
-
-## **11. Technical Overview**
-
-### **MBR in Assembly**
-The **Master Boot Record** is overwritten with **minimal Assembly code**, ensuring that it is undetectable and highly effective. The **512-byte fractal** code disrupts the boot process, preventing the OS from starting.
 
 ### **GDI in C#**
 The malware uses **C#** and **GDI** functions to create distorted, unsettling visuals:
